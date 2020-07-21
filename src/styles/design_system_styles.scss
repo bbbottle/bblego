@@ -1,0 +1,97 @@
+/**** Colors ****/
+$gray-1: #333333;
+$gray-2: #4f4f4f;
+$gray-3: #828282;
+$gray-4: #bdbdbd;
+$gray-5: #e0e0e0;
+$gray-6: #f2f2f2;
+$green-1: #51c49f;
+$green-2: #82d5bb;
+$green-3: #9ddec9;
+$green-4: #c2eade;
+$green-5: #f1fffa;
+$red-3: #ff8888;
+$white: #fff;
+$black: #000;
+
+/**** Fonts ****/
+/** huge-title **/
+$huge-title-font-family: 'Songti TC', 'STSongti-TC-Regular';
+$huge-title-font-size: 32px;
+$huge-title-letter-spacing: 0px;
+$huge-title-line-height: 100%;
+$huge-title-font-weight: 400;
+$huge-title-color: black;
+$body-font-family: Songti TC, PingFang SC, "\5FAE\8F6F\96C5\9ED1", Arial;
+
+@mixin huge-title() {
+  font-family: $huge-title-font-family;
+  font-size: $huge-title-font-size;
+  letter-spacing: $huge-title-letter-spacing;
+  line-height: $huge-title-line-height;
+  font-weight: $huge-title-font-weight;
+  color: $huge-title-color;
+}
+/** content **/
+$content-font-family: 'Songti TC', 'STSongti-TC-Regular';
+$content-font-size: 14px;
+$content-letter-spacing: 0px;
+$content-line-height: 1.8;
+$content-font-weight: 400;
+$content-color: black;
+
+@mixin content() {
+  font-family: $content-font-family;
+  font-size: $content-font-size;
+  letter-spacing: $content-letter-spacing;
+  line-height: $content-line-height;
+  font-weight: $content-font-weight;
+  color: $content-color;
+}
+/** time **/
+$time-font-family: 'Songti TC', 'STSongti-TC-Regular';
+$time-font-size: 12px;
+$time-letter-spacing: 0px;
+$time-line-height: 100%;
+$time-font-weight: 400;
+$time-color: black;
+
+@mixin time() {
+  font-family: $time-font-family;
+  font-size: $time-font-size;
+  letter-spacing: $time-letter-spacing;
+  line-height: $time-line-height;
+  font-weight: $time-font-weight;
+  color: $time-color;
+}
+/** title **/
+$title-font-family: 'Songti TC', 'STSongti-TC-Regular';
+$title-font-size: 16px;
+$title-letter-spacing: 0px;
+$title-line-height: 100%;
+$title-font-weight: 400;
+$title-color: black;
+
+@mixin title() {
+  font-family: $title-font-family;
+  font-size: $title-font-size;
+  letter-spacing: $title-letter-spacing;
+  line-height: $title-line-height;
+  font-weight: $title-font-weight;
+  color: $title-color;
+}
+
+/** Size **/
+$padding-unit: 5px;
+$padding-1: $padding-unit;
+$padding-2: 2 * $padding-unit;
+$padding-3: 3 * $padding-unit;
+$padding-4: 4 * $padding-unit;
+$padding-big: 10 * $padding-unit;
+$padding-large: 18 * $padding-unit;
+$padding-huge: 30 * $padding-unit;
+
+$base-icon-size: 16px;
+$base-thumbnail-size: 20px;
+$max-img-height: 500px;
+

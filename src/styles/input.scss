@@ -1,0 +1,11 @@
+.bblego-input {
+  border: none;
+  outline: none;
+  border-bottom: solid 1px $green-2;
+  transition: .2s all;
+  padding: $padding-1;
+
+  &:focus {
+    border-color: $green-1;
+  }
+}

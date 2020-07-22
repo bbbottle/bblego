@@ -15,7 +15,7 @@ module.exports = {
 
     // Make whatever fine-grained changes you need
     const srcPath = path.resolve(__dirname, '../src');
-    config.module.rules.push({
+    const customSassConf = {
       test: /\.scss$/,
       use: [
         {
@@ -30,8 +30,9 @@ module.exports = {
         },
       ],
       include: srcPath
-    });
+    };
 
+    config.module.rules.find(r => !!r.oneOf).oneOf.unshift(customSassConf);
     config.plugins.push(
       new MiniCssExtractPlugin({
         filename: `bblego.min.css`,

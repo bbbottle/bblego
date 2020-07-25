@@ -95,3 +95,9 @@ $base-icon-size: 16px;
 $base-thumbnail-size: 20px;
 $max-img-height: 500px;
 
+@mixin fullscreen {
+  width: 100%;
+  height: 100%;
+}
+
+

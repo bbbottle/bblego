@@ -2,8 +2,14 @@
   border: none;
   outline: none;
   border-bottom: solid 1px $green-2;
+  border-radius: 0;
   transition: .2s all;
   padding: $padding-1;
+
+  font-family: $body-font-family;
+  &::placeholder {
+    color: $gray-4;
+  }
 
   &:focus {
     border-color: $green-1;

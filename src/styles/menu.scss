@@ -1,0 +1,100 @@
+.menu-panel-container {
+  position: relative;
+  overflow: hidden;
+  @include fullscreen;
+
+  &.open {
+    .panel-title {
+      opacity: 1;
+    }
+  }
+
+  .panel-title {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    color: $green-1;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+    top: 15px;
+    left: 15px;
+
+    svg {
+      margin-right: $padding-1;
+    }
+  }
+
+  & > div.menu-panel {
+    @include fullscreen;
+    position: absolute;
+    background: $white;
+    transition: all .3s;
+    outline: none;
+    will-change: top, left;
+
+    &:not(:first-child) {
+      box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    & > div.panel {
+      @include fullscreen;
+      position: relative;
+      overflow: auto;
+      transition: opacity .3s;
+    }
+  }
+
+  &.open {
+    .menu-panel {
+      &:active {
+        background: $green-5 !important;
+        box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  &:not([data-active-panel]) {
+  }
+
+  &[data-active-panel] {
+    .menu-panel {
+      &.active {
+        transition-delay: .3s;
+      }
+      //&:not(.active) {
+      //  top: 100vh !important;
+      //}
+    }
+  }
+
+  .menu-button {
+    position: fixed;
+    border: none;
+    outline: none;
+    top: $padding-big;
+    left: $padding-big;
+    width: 25px;
+    height: 26px;
+    border-radius: 0;
+    opacity: 1;
+    box-shadow: #6bcba88f -5px -5px 0 0, #6bcba859 -10px -10px 0 0;
+    background: $green-1;
+    z-index: 1;
+    transition: all .3s;
+    cursor: pointer;
+
+    &.hidden {
+      opacity: 0;
+      pointer-events: none;
+      box-shadow: #6bcba88f -8px -8px 3px 0, #6bcba859 -20px -20px 10px 0;
+    }
+
+    &:active {
+      bottom: 23px;
+      right: 17px;
+      box-shadow: #6bcba88f -1px -1px 0 0;
+    }
+  }
+}

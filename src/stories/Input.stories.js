@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Input } from '../components';
 
 export default {
@@ -7,7 +6,7 @@ export default {
   title: 'Input',
 };
 
-export const Default = () => <Input />;
+export const Default = () => <Input placeholder="请输入" />;
 
 
 

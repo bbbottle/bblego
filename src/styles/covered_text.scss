@@ -1,0 +1,16 @@
+.covered-text {
+  position: relative;
+  padding: 0 $padding-1;
+  display: inline-flex;
+  align-items: center;
+  &:after {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    height: $padding-2;
+    width: 100%;
+    background: $green-4;
+    content: '';
+    opacity: 0.8;
+  }
+}

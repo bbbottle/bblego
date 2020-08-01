@@ -7,6 +7,7 @@
     display: inline-block;
     position: absolute;
     left: 0;
+    top: calc(50% - 5px);
     height: $padding-2;
     width: 100%;
     background: $green-4;

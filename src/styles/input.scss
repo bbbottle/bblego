@@ -5,6 +5,7 @@
   border-radius: 0;
   transition: .2s all;
   padding: $padding-1;
+  -webkit-appearance: none;
 
   font-family: $body-font-family;
   &::placeholder {

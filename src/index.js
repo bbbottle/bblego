@@ -7,6 +7,9 @@ import EditIcon from './icons/edit.svg';
 import PostIcon from './icons/post.svg';
 import AboutIcon from './icons/about.svg';
 import ErrorIcon from './icons/error.svg';
+import PhotoIcon from './icons/photo.svg';
+import GridIcon from './icons/grid.svg';
+
 
 export {
   RulerIcon,
@@ -14,6 +17,8 @@ export {
   EditIcon,
   PostIcon,
   AboutIcon,
-  ErrorIcon
+  ErrorIcon,
+  PhotoIcon,
+  GridIcon
 }
 

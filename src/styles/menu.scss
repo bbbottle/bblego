@@ -48,7 +48,7 @@
         flex: 1 0 auto;
         display: grid;
         grid-template-columns: $padding-huge calc(100% - 300px) $padding-huge;
-        grid-template-rows: $padding-large calc(100% - 180px) $padding-large;
+        grid-template-rows: $padding-huge calc(100% - 300px) $padding-huge;
         height: 100%;
 
         @media screen and (max-width: 600px) {

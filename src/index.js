@@ -1,6 +1,3 @@
-export * from './components'
-export * from './styles/design_system_styles'
-
 import RulerIcon from './icons/ruler.svg';
 import TagIcon from './icons/tag.svg';
 import EditIcon from './icons/edit.svg';
@@ -9,8 +6,10 @@ import AboutIcon from './icons/about.svg';
 import ErrorIcon from './icons/error.svg';
 import PhotoIcon from './icons/photo.svg';
 import GridIcon from './icons/grid.svg';
+import MailIcon from './icons/mail.svg'
 
-
+export * from './components'
+export * from './styles/design_system_styles'
 export {
   RulerIcon,
   TagIcon,
@@ -19,6 +18,7 @@ export {
   AboutIcon,
   ErrorIcon,
   PhotoIcon,
-  GridIcon
+  GridIcon,
+  MailIcon
 }
 

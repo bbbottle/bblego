@@ -6,7 +6,8 @@ import AboutIcon from './icons/about.svg';
 import ErrorIcon from './icons/error.svg';
 import PhotoIcon from './icons/photo.svg';
 import GridIcon from './icons/grid.svg';
-import MailIcon from './icons/mail.svg'
+import MailIcon from './icons/mail.svg';
+import LogoIcon from './icons/logo.svg';
 
 export * from './components'
 export * from './styles/design_system_styles'
@@ -19,6 +20,7 @@ export {
   ErrorIcon,
   PhotoIcon,
   GridIcon,
-  MailIcon
+  MailIcon,
+  LogoIcon,
 }
 

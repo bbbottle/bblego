@@ -18,7 +18,8 @@
     "build": "cross-env BABEL_ENV=production babel src -d dist",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=gn9jy8hkk9"
+    "chromatic": "npx chromatic --project-token=gn9jy8hkk9",
+    "release": "auto shipit"
   },
   "babel": {
     "presets": [

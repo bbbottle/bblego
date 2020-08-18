@@ -3,11 +3,6 @@
   overflow: hidden;
   @include fullscreen;
 
-  &.open {
-    .panel-title {
-      opacity: 1;
-    }
-  }
 
   .panel-title {
     display: flex;
@@ -61,6 +56,8 @@
           grid-column-end: 3;
           grid-row-start: 2;
           grid-row-end: 3;
+
+          overflow: hidden;
         }
       }
 
@@ -71,6 +68,10 @@
   }
 
   &.open {
+    .panel-title {
+      opacity: 1;
+    }
+
     .menu-panel {
       &:active {
         background: $green-5 !important;
@@ -79,17 +80,11 @@
     }
   }
 
-  &:not([data-active-panel]) {
-  }
-
   &[data-active-panel] {
     .menu-panel {
       &.active {
         transition-delay: .3s;
       }
-      //&:not(.active) {
-      //  top: 100vh !important;
-      //}
     }
   }
 

@@ -8,6 +8,7 @@ import PhotoIcon from './icons/photo.svg';
 import GridIcon from './icons/grid.svg';
 import MailIcon from './icons/mail.svg';
 import LogoIcon from './icons/logo.svg';
+import GitHubIcon from './icons/github.svg';
 
 export * from './components'
 export * from './styles/design_system_styles'
@@ -22,5 +23,6 @@ export {
   GridIcon,
   MailIcon,
   LogoIcon,
+  GitHubIcon
 }
 

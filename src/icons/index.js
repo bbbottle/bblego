@@ -8,4 +8,5 @@ export { ReactComponent as PhotoIcon } from './photo.svg';
 export { ReactComponent as GridIcon } from './grid.svg';
 export { ReactComponent as MailIcon } from './mail.svg';
 export { ReactComponent as LogoIcon } from './logo.svg';
+export { ReactComponent as GithubIcon } from './github.svg';
 

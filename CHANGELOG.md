@@ -1,3 +1,15 @@
+# v0.2.15 (Sat Aug 22 2020)
+
+#### 🐛 Bug Fix
+
+- New GitHub icon [#2](https://github.com/bbbottle/bblego/pull/2) ([@zjhou](https://github.com/zjhou))
+
+#### Authors: 1
+
+- zjh ([@zjhou](https://github.com/zjhou))
+
+---
+
 # v0.2.14 (Tue Aug 18 2020)
 
 #### ⚠️ Pushed to `master`

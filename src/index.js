@@ -10,6 +10,7 @@ import MailIcon from './icons/mail.svg';
 import LogoIcon from './icons/logo.svg';
 import GitHubIcon from './icons/github.svg';
 import QuestionIcon from './icons/unknown.svg';
+import YuQueIcon from './icons/yuque.svg';
 
 export * from './components'
 export * from './styles/design_system_styles'
@@ -26,5 +27,6 @@ export {
   LogoIcon,
   GitHubIcon,
   QuestionIcon,
+  YuQueIcon
 }
 

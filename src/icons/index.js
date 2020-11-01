@@ -10,4 +10,4 @@ export { ReactComponent as MailIcon } from './mail.svg';
 export { ReactComponent as LogoIcon } from './logo.svg';
 export { ReactComponent as GithubIcon } from './github.svg';
 export { ReactComponent as Unknown } from './unknown.svg';
-
+export { ReactComponent as YuQueIcon } from './yuque.svg';

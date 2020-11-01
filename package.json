@@ -1,6 +1,6 @@
 {
   "name": "@zhoujiahao/bblego",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "author": "ZjHOU <z@zjh.im>",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

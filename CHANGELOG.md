@@ -1,3 +1,16 @@
+# v0.2.17 (Sun Nov 01 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of github.com:bbbottle/bblego into master ([@zjhou](https://github.com/zjhou))
+- feat: add icon ([@zjhou](https://github.com/zjhou))
+
+#### Authors: 1
+
+- zjh ([@zjhou](https://github.com/zjhou))
+
+---
+
 # v0.2.16 (Sat Oct 31 2020)
 
 #### ⚠️ Pushed to `master`

@@ -1,3 +1,17 @@
+# v0.2.16 (Sat Oct 31 2020)
+
+#### ⚠️ Pushed to `master`
+
+- enable fullscreen menu-item ([@zjhou](https://github.com/zjhou))
+- Merge branch 'new-icon' into enhance-menu ([@zjhou](https://github.com/zjhou))
+- add: new icon ([@zjhou](https://github.com/zjhou))
+
+#### Authors: 1
+
+- zjh ([@zjhou](https://github.com/zjhou))
+
+---
+
 # v0.2.15 (Sat Aug 22 2020)
 
 #### 🐛 Bug Fix
